@@ -56,7 +56,7 @@ const IcoDetails = () => {
               data-aos="fade-up"
               data-aos-duration="2500"
               data-aos-delay={`${
-                i === 0 ? 2000 : i === 1 ? 2500 : i === 2 ? 3000 : 2000
+                i === 0 ? 500 : i === 1 ? 750 : i === 2 ? 1000 : 2000
               }`}
             >
               <div className={styles.textAndValue}>
@@ -79,7 +79,7 @@ const IcoDetails = () => {
               data-aos="fade-up"
               data-aos-duration="2500"
               data-aos-delay={`${
-                i === 0 ? 2000 : i === 1 ? 2500 : i === 2 ? 3000 : 2000
+                i === 0 ? 500 : i === 1 ? 750 : i === 2 ? 1000 : 2000
               }`}
             >
               <div className={styles.textAndValue}>

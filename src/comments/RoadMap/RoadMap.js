@@ -2,6 +2,7 @@ import React from "react";
 import { q1, q2, q3 } from "../../assets/images/images";
 import roadmapbg from "../../assets/video/roadmapbg.mp4";
 import Line from "../Line/Line";
+
 import styles from "./styles.module.css";
 const RoadMap = () => {
   const data = [
@@ -56,7 +57,7 @@ const RoadMap = () => {
               data-aos="fade-up"
               data-aos-duration="1500"
               data-aos-delay={`${
-                i === 0 ? 500 : i === 1 ? 1000 : i === 2 ? 1500 : 2000
+                i === 0 ? 250 : i === 1 ? 500 : i === 2 ? 750 : 1000
               }`}
             >
               <img src={el.img} alt="#" className={styles.image} />
@@ -75,7 +76,7 @@ const RoadMap = () => {
             data-aos="fade-up"
             data-aos-duration="3000"
             data-aos-delay={`${
-              i === 0 ? 2000 : i === 1 ? 2500 : i === 2 ? 3000 : 2000
+              i === 0 ? 750 : i === 1 ? 1000 : i === 2 ? 1250 : 2000
             }`}
           >
             <h3 className={styles.title}>{el.title}</h3>
