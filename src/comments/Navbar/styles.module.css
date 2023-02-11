@@ -46,6 +46,9 @@
   text-decoration: none;
   line-height: 100%;
 }
+.navItem:focus {
+  color: #fff;
+}
 .hamburger {
   display: none;
   color: #fff;

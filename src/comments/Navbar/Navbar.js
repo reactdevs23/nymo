@@ -52,7 +52,12 @@ const Navbar = () => {
             />
           )}
           {navItems.map((el, i) => (
-            <Link to={el.to} key={i} className={styles.navItem}>
+            <Link
+              to={el.to}
+              key={i}
+              className={styles.navItem}
+              onClick={() => setSidebar((prev) => !prev)}
+            >
               {el.item}
             </Link>
           ))}
