@@ -48,3 +48,12 @@
 .countText {
   text-align: center;
 }
+@media only screen and (max-width: 991px) {
+  .heroSectionContaiener {
+    padding-top: 150px;
+  }
+  .heroSection {
+    flex-direction: column;
+    align-items: center;
+  }
+}
