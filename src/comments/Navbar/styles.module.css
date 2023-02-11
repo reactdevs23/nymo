@@ -97,14 +97,19 @@
   }
 }
 @media only screen and (max-width: 767px) {
-  .navbar {
-    padding-top: 10px;
-  }
   .logo {
     font-size: 40px;
   }
   .tagline {
     font-size: 15px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .navbarContaner {
+    height: auto;
+  }
+  .tagline {
+    padding-bottom: 8px;
   }
 }
 @media only screen and (max-width: 400px) {
