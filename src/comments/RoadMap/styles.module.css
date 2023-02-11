@@ -2,11 +2,16 @@
   position: relative;
 
   padding: 80px 0;
-  /* background: url(../../assets/images/roadmapbg.webp); */
+  background: url(../../assets/images/roadmapbg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -2;
+  margin-top: -25px;
 }
 
 .heading {
-  font-family: var(--font);
+  font-family: "MuseoModerno", cursive;
   font-size: 38px;
   font-weight: 700;
   text-align: center;
@@ -26,7 +31,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgb(16, 37, 69, 0.9);
+  background: rgb(12, 30, 58, 0.8);
   top: 0;
   z-index: -1;
 }
@@ -47,15 +52,19 @@
 }
 
 .title {
-  font-family: var(--font);
+  font-family: "Lato", sans-serif;
+
   font-size: 26px;
   font-weight: 700;
   color: #fff;
 }
 .text {
-  font-family: var(--font);
+  font-family: "Lato", sans-serif;
+
   font-size: 16px;
+  line-height: 160%;
   color: #fff;
+  font-weight: 300;
 }
 .textContainer {
   padding-left: 25px;

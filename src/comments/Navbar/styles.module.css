@@ -1,14 +1,15 @@
 .navbarContaner {
-  background: #001d4b;
-  padding: 5px 0;
-  padding-bottom: 30px;
+  background: rgb(0, 29, 75);
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 5;
+  padding: 15px 0;
+  padding-top: 24px;
+  height: 110px;
 }
 .navbar {
-  max-width: 1050px;
+  max-width: 1030px;
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -16,32 +17,34 @@
   align-items: center;
   gap: 30px;
 }
-.logoText {
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .logo {
-  font-family: var(-font);
-  font-size: 60px;
-  color: #ff4040;
-  line-height: 100%;
+  width: 141px;
 }
 .tagline {
-  font-family: var(-font);
-  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
   color: #fff;
-  padding-top: 5px;
-  font-weight: 500;
+
+  font-weight: 700;
 }
 .navItems {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 .navItem {
   font-family: var(--font);
-  font-size: 16px;
+  font-size: 12px;
+  text-transform: uppercase;
   color: #fff;
-  font-weight: 300;
+  font-weight: 200;
   text-decoration: none;
+  line-height: 100%;
 }
 .hamburger {
   display: none;

@@ -15,6 +15,7 @@ import fedrik from "./frederic2.webp";
 import takeAllocationBg from "./tokenAllocation.webp";
 import takeAllocationMobile from "./tokenAllocationMobile.webp";
 import join from "./joiningusbg.webp";
+import logo from "./logo.webp";
 export {
   q1,
   q2,
@@ -33,4 +34,5 @@ export {
   takeAllocationBg,
   takeAllocationMobile,
   join,
+  logo,
 };

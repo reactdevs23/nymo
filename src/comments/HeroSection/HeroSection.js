@@ -24,7 +24,7 @@ const HeroSection = () => {
               platform.
             </p>{" "}
             <p className={styles.text}>
-              <strong>
+              <strong className={styles.strong}>
                 Therefore, we have decided to conduct an Initial Coin Offering
                 (ICO) to raise the funds necessary to bring Nymo to life.
               </strong>

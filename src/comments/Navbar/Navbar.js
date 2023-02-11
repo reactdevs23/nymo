@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { TfiClose } from "react-icons/tfi";
 import { Link } from "react-router-dom";
+import { logo } from "../../assets/images/images";
 import styles from "./styles.module.css";
 
 const Navbar = () => {
@@ -27,11 +28,8 @@ const Navbar = () => {
   return (
     <section className={styles.navbarContaner}>
       <div className={styles.navbar}>
-        <div className={styles.logoText}>
-          <h1 className={styles.logo}>nymo</h1>
-          <p className={styles.tagline}>
-            blockchain remittances, financial freedom achieved.
-          </p>
+        <div className={styles.logoContainer}>
+          <img src={logo} alt="#" className={styles.logo} />
         </div>
         <RxHamburgerMenu
           className={styles.hamburger}
@@ -59,6 +57,11 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
+      </div>
+      <div className={styles.navbar}>
+        <p className={styles.tagline}>
+          blockchain remittances, financial freedom achieved.
+        </p>
       </div>
     </section>
   );

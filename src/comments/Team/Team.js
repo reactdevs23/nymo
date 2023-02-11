@@ -31,17 +31,25 @@ const Team = () => {
   ];
   return (
     <section className={styles.teamContainer}>
-      <video src={TeamBg} autoPlay muted loop className={styles.video}></video>
-      <h2 className={styles.heading}>team</h2>
-      <div className={styles.team}>
-        {teams.map((el, i) => (
-          <div className={styles.teamMember} key={i}>
-            <img src={el.img} alt="#" className={styles.image} />
-            <p className={styles.name}>{el.name}</p>
-            <p className={styles.position}>{el.position}</p>
-          </div>
-        ))}
-      </div>
+      <div className={styles.wrapper}>
+        <video
+          src={TeamBg}
+          autoPlay
+          muted
+          loop
+          className={styles.video}
+        ></video>
+        <h2 className={styles.heading}>team</h2>
+        <div className={styles.team}>
+          {teams.map((el, i) => (
+            <div className={styles.teamMember} key={i}>
+              <img src={el.img} alt="#" className={styles.image} />
+              <p className={styles.name}>{el.name}</p>
+              <p className={styles.position}>{el.position}</p>
+            </div>
+          ))}
+        </div>
+      </div>{" "}
       <div className={styles.overlay}></div>
     </section>
   );

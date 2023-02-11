@@ -1,7 +1,7 @@
 .footerContainer {
   background: #002e5d;
   padding-top: 50px;
-  padding-bottom: 80px;
+  padding-bottom: 70px;
 }
 .footer {
   display: flex;
@@ -12,15 +12,12 @@
   gap: 15px;
 }
 
-.whitepaper {
-  font-family: var(--font);
-  font-size: 14px;
-  color: #fff;
-  text-transform: uppercase;
-}
 .text {
-  font-family: var(--font);
+  font-family: "Lato", sans-serif;
   font-size: 13px;
+  font-weight: 300;
+  line-height: 140%;
+  opacity: 0.8;
   color: #fff;
   text-align: right;
 }

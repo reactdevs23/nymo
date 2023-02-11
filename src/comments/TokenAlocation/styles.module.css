@@ -15,7 +15,7 @@
   transform: translateX(-50%);
 }
 .heading {
-  font-family: var(--font);
+  font-family: "MuseoModerno", cursive;
   font-size: 38px;
   font-weight: 700;
   text-align: right;

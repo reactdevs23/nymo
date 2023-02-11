@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <section className={styles.footerContainer}>
       <div className={styles.footer}>
-        <p className={styles.whitepaper}>WHITEPAPER</p>
+        <p></p>
         <div>
           <p className={styles.text}> © 2009-2023 by AIDENTITY LTD</p>{" "}
           <p className={styles.text}>
