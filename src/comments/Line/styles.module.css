@@ -1,0 +1,49 @@
+.line {
+  max-width: 1140px;
+  width: 90%;
+  height: 1px;
+  margin: 0 auto;
+  background: #0057e1;
+  position: relative;
+  transform: translate(130%);
+  transition: 2.3s ease-in-out;
+}
+.leftCircle {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  background: #0057e1;
+  border-radius: 50%;
+  left: 100%;
+  transition: 2.3s ease-in-out;
+}
+.rightCircle {
+  position: absolute;
+  right: 0;
+  transform: translate(50%, -50%);
+  width: 16px;
+  height: 16px;
+  background: #0057e1;
+  border-radius: 50%;
+}
+.lineAnimation {
+  transform: translate(0%);
+}
+
+.lineAnimation .leftAnimation {
+  transition: 2.3s ease-in-out;
+
+  left: 0;
+}
+@media only screen and (max-width: 991px) {
+  .hide {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .line {
+    display: none;
+  }
+}

@@ -1,0 +1,50 @@
+.heroSectionContaiener {
+  background: url("../../assets/images/herobg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 80px;
+  position: relative;
+  z-index: 2;
+}
+.heroSectionContaiener::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(16, 37, 69, 0.6);
+
+  z-index: -1;
+}
+.heroSectionWrapper {
+  max-width: 922px;
+  width: 90%;
+  margin: 0 auto;
+}
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.heading {
+  font-family: var(--font);
+  font-size: 38px;
+  font-weight: 700;
+
+  color: #ff4040;
+  padding-bottom: 20px;
+}
+.text {
+  font-family: var(-font);
+  font-size: 18px;
+  line-height: 140%;
+  color: #fff;
+  padding: 10px 0;
+}
+.countText {
+  text-align: center;
+}

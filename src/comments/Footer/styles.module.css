@@ -1,0 +1,34 @@
+.footerContainer {
+  background: #002e5d;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 980px;
+  width: 90%;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.whitepaper {
+  font-family: var(--font);
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.text {
+  font-family: var(--font);
+  font-size: 13px;
+  color: #fff;
+  text-align: right;
+}
+@media only screen and (max-width: 575px) {
+  .footer {
+    flex-direction: column;
+  }
+  .text {
+    text-align: left;
+  }
+}
