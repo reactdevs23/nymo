@@ -1,12 +1,14 @@
 .navbarContaner {
-  background: rgb(0, 29, 75);
+  background: #001d4b;
+
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 5;
   padding: 15px 0;
   padding-top: 24px;
-  height: 110px;
+  height: 120px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
 }
 .navbar {
   max-width: 1030px;
@@ -26,7 +28,7 @@
   width: 141px;
 }
 .tagline {
-  font-family: "Lato", sans-serif;
+  font-family: "MuseoModerno", sans-serif;
   font-size: 16px;
   color: #fff;
 
@@ -38,13 +40,14 @@
   gap: 20px;
 }
 .navItem {
-  font-family: var(--font);
+  font-family: "Lato";
   font-size: 12px;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 200;
+  font-weight: 300;
   text-decoration: none;
   line-height: 100%;
+  opacity: 0.9;
 }
 .navItem:focus {
   color: #fff;
